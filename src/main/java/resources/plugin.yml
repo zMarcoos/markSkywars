@@ -1,0 +1,7 @@
+name: markSkywars
+version: 1.0
+main: marcos.devsoftware.skywars.SkywarsPlugin
+author: zMarcoos
+commands:
+  skywars:
+    aliases: [sw]

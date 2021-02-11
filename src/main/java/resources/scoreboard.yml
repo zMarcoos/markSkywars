@@ -1,0 +1,43 @@
+#refil - Refil completo.
+#kills - tanto de kills que o jogador fez.
+#time - tempo até começar a partida.
+#map - nome do mapa.
+#current - número de jogadores vivos.
+#max - número máximo de jogadores por partida.
+
+WaitingGameState:
+  - '&a'
+  - '&fMapa: &a%map'
+  - '&fJogadores: &a%current/%max'
+  - '&b'
+  - '&fAguardando...'
+  - '&f'
+  - '&eservidor.com'
+StartingGameState:
+  - '&a'
+  - '&fMapa: &a%map'
+  - '&fJogadores: &a%current/%max'
+  - '&b'
+  - '&fIniciando em &a%times'
+  - '&f'
+  - '&eservidor.com'
+ActiveGameState:
+  - '&a'
+  - '&fPróximo Evento:'
+  - '&a%refil'
+  - '&b'
+  - '&fRestantes: &a%current'
+  - '&f'
+  - '&fVítimas: &a%kills'
+  - '&e'
+  - '&eservidor.com'
+EndGameState:
+  - '&a'
+  - '&fPróximo Evento:'
+  - '&a%refil'
+  - '&b'
+  - '&fRestantes: &a%current'
+  - '&f'
+  - '&fVítimas: &a%kills'
+  - '&e'
+  - '&eservidor.com'
